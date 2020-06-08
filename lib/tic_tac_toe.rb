@@ -36,6 +36,7 @@ class TicTacToe
     else
       false 
     end
-    
   end
+  def 
+end
 end
