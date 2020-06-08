@@ -14,7 +14,7 @@ class TicTacToe
   [0,4,8],
   [6,7,8],]
   
-      def display_board
+    def display_board
       puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
       puts "-----------"
       puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
@@ -22,9 +22,13 @@ class TicTacToe
       puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
     end
     
-    def input_to_index(string)
+  def input_to_index(string)
       @choice = string.to_i-1
-      
+  end
+  
+  def move(a, b)
+    
+    
   end
   
 end
