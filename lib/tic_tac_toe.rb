@@ -22,6 +22,9 @@ class TicTacToe
       puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
     end
     
-    def 
+    def input_to_index(string)
+      @choice = string.to_i
+      
+  end
   
 end
