@@ -55,6 +55,7 @@ end
   
   def turn
     choice = gets.chomp!
+    position = input_to_index(choice)
     
   end
     
