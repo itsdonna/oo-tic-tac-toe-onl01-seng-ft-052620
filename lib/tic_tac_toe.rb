@@ -40,10 +40,12 @@ class TicTacToe
   def valid_move?(input_to_index)
     !position_taken?(input_to_index) && @board[input_to_index]
   end
+  
   def turn_count
     count = 0 
     @board.each do |i| 
       count +=1 if i == "X" || i == "O"
   end
   count
+end
 end
