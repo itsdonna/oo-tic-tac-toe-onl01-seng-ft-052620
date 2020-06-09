@@ -54,7 +54,10 @@ end
   end
   
   def turn
-    gets.chomp!
-end
+    choice = gets.chomp!
+    
+  end
+    
+
     
 end
