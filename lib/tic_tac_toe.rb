@@ -55,7 +55,6 @@ end
   
   def turn
     gets.chomp!
-    
 end
     
 end
