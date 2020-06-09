@@ -54,6 +54,7 @@ end
   end
   
   def turn
+    puts"hey user whats your choice?"
     choice = gets.chomp!
     position = input_to_index(choice)
     if valid_move?(position)
