@@ -28,7 +28,7 @@ class TicTacToe
   
   def move(input_to_index, player)
     @board [input_to_index] = player
-    token == "X" || token == "O"
+    
   end
   
   def position_taken?(input_to_index)
@@ -51,9 +51,9 @@ class TicTacToe
 end
   def current_player
     if turn_count.odd?
-      token == "X"
+      player == "X"
     else 
-      token == "O"
+      player == "O"
     end
   end
 end
