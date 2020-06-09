@@ -57,7 +57,7 @@ end
     choice = gets.chomp!
     position = input_to_index(choice)
     if valid_move?(position)
-      move(position, player)
+      move(position, current_player)
     end
   end
     
