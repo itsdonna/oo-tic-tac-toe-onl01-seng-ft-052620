@@ -48,4 +48,7 @@ class TicTacToe
   end
   count
 end
+def current_player
+odds? 
+end
 end
